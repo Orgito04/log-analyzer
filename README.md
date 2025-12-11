@@ -33,6 +33,21 @@ Assigns a score to each IP based on:
 - Number of unique paths accessed  
 
 ---
+## 📊 Example Report Output
+
+![Sample Report](assets/summary.png)
+
 
 ## 📂 Project Structure
 
+log-analyzer/
+├── analyzer/
+│ ├── parser.py
+│ ├── detectors.py
+│ └── reporter.py
+├── data/
+│ └── example_access.log
+├── reports/
+│ └── (generated automatically)
+├── run_analyzer.py
+└── README.md
