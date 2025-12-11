@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# Data / reports (don't commit big logs or generated reports)
+reports/
+data/*.log
+
+# OS files
+Thumbs.db
+.DS_Store
